@@ -7,8 +7,26 @@
     <title>AI Italian Recipe Generator</title>
 </head>
 <body>
-    <h1>Welcome to the AI Italian Recipe Generator</h1>
-    <p>This is a project to generate Italian recipes using AI.</p>
-<script src="src/index.js"></script>
+    <header>
+        <h1>Welcome to the AI Italian Recipe Generator</h1>
+    </header>
+    <main>
+       <form>
+        <input type="text" placeholder="Enter an ingredient (e.g., basil, garlic, tomato)"/>
+                autofocus
+                required
+                autocomplete="off"
+        <input type="Submit" />
+    </form>
+    <div id="recipe-output">The recipe will appear here
+        Lasagna Recipe
+        <br />
+        Ingredients:
+    </div>
+    </main> 
+    <footer>
+        This AI project was coded by <a href= "https://github.com/leonem966-rgb" target="_blank">Maria Leone</a> and is <a href= "https://github.com/leonem966-rgb/italian-recipe-generator" target ="_blank"> open-sourced on GitHub</a> and is hosted on Netlify.
+    </footer>
+    <script src="src/index.js"></script>
 </body>
 </html>
